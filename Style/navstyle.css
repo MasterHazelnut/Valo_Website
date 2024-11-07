@@ -1,0 +1,49 @@
+.navigation {
+    position: fixed;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    pointer-events: none;
+}
+
+.navigation > ul {
+    background-color: #ff4655;
+    color: white;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    pointer-events: all;
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.navigation > ul > li {
+    list-style: none;
+    padding: 1rem;
+}
+
+.navigation > ul > li:hover {
+    background-color: #0f1722;
+}
+
+.navigation > ul > li > a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.navigation > ul > li > a > img {
+    width: 1.2rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}

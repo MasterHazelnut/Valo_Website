@@ -1,0 +1,73 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.agtittle {
+    font-family: DeineSchriftart;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 3px 2px #ff4655;
+}
+
+div.scrollmenu {
+    background-color: #0f1722;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu img {
+    width: 1000px;
+    height: auto;
+    display: inline-block;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.rolles {
+    font-family: DeineSchriftart;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.hover-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-container .hover-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hover-container:hover .hover-text {
+    visibility: visible;
+    opacity: 1;
+}
