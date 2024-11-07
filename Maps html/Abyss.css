@@ -1,0 +1,26 @@
+body {
+    background-image: url('Maps/Abyss/second.png');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: DeineSchriftart;
+    color: white;
+    text-align: left;
+    padding-top: 20%;
+    margin-left: 10%;
+    font-size: 300%;
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    transform: translate(50%, -50%);
+    width: 800px;
+    height: auto;
+}

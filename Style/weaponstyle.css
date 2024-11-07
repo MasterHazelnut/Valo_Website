@@ -1,0 +1,21 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+.weapontittle {
+    font-family: DeineSchriftart;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-shadow: 3px 2px #ff4655;
+}
+
+.container2 {
+    position: relative;
+    width: 30%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    margin-left: 25px;
+}
